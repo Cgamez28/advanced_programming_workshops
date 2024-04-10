@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T16:39:51.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ig82oN-UOtwkSujctkzZ" version="24.2.3" type="google">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Thread 1" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="440" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-41" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="80" y="32" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-42" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="USEDmwfXX3lcBXpQ_1na-41" target="USEDmwfXX3lcBXpQ_1na-43">
+          <mxGeometry x="-70" y="-88" as="geometry">
+            <mxPoint x="95" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-43" value="Select if you are a &#xa;customer or seller" style="" vertex="1" parent="2">
+          <mxGeometry x="30" y="102" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-44" value="&#xa;Select the create &#xa;engine option&#xa;" style="" vertex="1" parent="2">
+          <mxGeometry x="30" y="212" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-45" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="USEDmwfXX3lcBXpQ_1na-43" target="USEDmwfXX3lcBXpQ_1na-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-47" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="USEDmwfXX3lcBXpQ_1na-44" target="USEDmwfXX3lcBXpQ_1na-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-48" value="Write the characteristics &#xa;of the engine" style="" vertex="1" parent="2">
+          <mxGeometry x="20" y="322" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-50" value="store engine in the &#xa;dictionary &quot;engines&quot;" style="" vertex="1" parent="2">
+          <mxGeometry x="250" y="322" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="USEDmwfXX3lcBXpQ_1na-49" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2" source="USEDmwfXX3lcBXpQ_1na-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="272" as="sourcePoint" />
+            <mxPoint x="250" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T16:59:48.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VYNRdrL3BqTIyuTKhxL4" version="24.2.3" type="google">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Thread 1" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="128" width="685.5" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-41" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="105.5" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-42" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-41" target="eB2mMgKmKZNWxKjBdmCb-43">
+          <mxGeometry x="-64.5" y="-88" as="geometry">
+            <mxPoint x="120.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-43" value="Select if you are a &#xa;customer or seller" style="" vertex="1" parent="2">
+          <mxGeometry x="55.5" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-44" value="&#xa;Select the search vehicle&#xa; option&#xa;" style="" vertex="1" parent="2">
+          <mxGeometry x="50" y="220" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-45" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-43" target="eB2mMgKmKZNWxKjBdmCb-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-46" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="120" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-47" value="&#xa;Select if you want to search by model, &#xa;year, engine or chassis&#xa;" style="" vertex="1" parent="2">
+          <mxGeometry x="15.5" y="432" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-49" value="Search by model?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="375.5" y="32" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-50" value="si" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-49" target="eB2mMgKmKZNWxKjBdmCb-52">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="505.5" y="67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-51" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-49">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="420.5" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-52" value="show vehicles that match&#xa; the model" style="" vertex="1" parent="2">
+          <mxGeometry x="525.5" y="42" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-48" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-47" target="eB2mMgKmKZNWxKjBdmCb-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="280" as="sourcePoint" />
+            <mxPoint x="375.5" y="72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305.5" y="457" />
+              <mxPoint x="305.5" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-53" value="Search by&amp;nbsp;&lt;div&gt;year?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="375.5" y="142" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-54" value="si" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-53" target="eB2mMgKmKZNWxKjBdmCb-56">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="505.5" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-55" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-53">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="420.5" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-56" value="show vehicles that match &#xa;the year" style="" vertex="1" parent="2">
+          <mxGeometry x="525.5" y="152" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-57" value="Search by&amp;nbsp;&lt;div&gt;engine?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="375.5" y="252" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-58" value="si" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-57" target="eB2mMgKmKZNWxKjBdmCb-60">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="505.5" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-59" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-57">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="420.5" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-60" value="show vehicles that match &#xa;the engine" style="" vertex="1" parent="2">
+          <mxGeometry x="525.5" y="262" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-61" value="Search by&amp;nbsp;&lt;div&gt;chassis?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="375.5" y="362" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-62" value="si" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="eB2mMgKmKZNWxKjBdmCb-61" target="eB2mMgKmKZNWxKjBdmCb-64">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="505.5" y="397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-64" value="show vehicles that match&#xa; the model" style="" vertex="1" parent="2">
+          <mxGeometry x="525.5" y="372" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-65" value="show all vehicles&#xa;" style="" vertex="1" parent="2">
+          <mxGeometry x="50.5" y="332" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eB2mMgKmKZNWxKjBdmCb-66" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.5" y="382" as="sourcePoint" />
+            <mxPoint x="119.5" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
