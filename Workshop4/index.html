@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workshop 4 - AP</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a simple example to explore OSI layers in a simple network">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <h1>Workshop 4 - AP</h1>
+        <h2>Full-Stack Test</h2>
+        <p>Click on the buttons to explore services</p>
+        <div>
+            <button onclick="callMessage()">Get Message</button>
+            <!-- como en el archivo functions.js no existe nigun callTable, se cambio el nobre a callWebService -->
+            <button onclick="callWebService()">Get Table</button>
+        </div>
+        <div id="result"></div>
+        
+        <h2>Add a Product</h2>
+        <form id="productForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required><br><br>
+            <button type="submit">Add Product</button>
+        </form>
+    </body>
+</html>
+
