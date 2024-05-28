@@ -16,7 +16,7 @@
             <button onclick="callWebService()">Get Table</button>
         </div>
         <div id="result"></div>
-        
+        <!-- Se agrego un formulario para que el usuario pueda crear productos -->
         <h2>Add a Product</h2>
         <form id="productForm">
             <label for="name">Name:</label>
@@ -25,6 +25,7 @@
             <input type="text" id="description" name="description" required><br><br>
             <button type="submit">Add Product</button>
         </form>
+        <!-- se movio la etiqueta script hacia el final del body para no generar problemas-->
         <script src="functions.js"></script>
     </body>
 </html>
