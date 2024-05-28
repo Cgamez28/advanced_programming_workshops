@@ -14,7 +14,9 @@ como en la consola del navegador estaba dando problemas con el CORS, se configur
 que estan en origins y permita las solicitudes fetch 
 """
 origins = [
-    "http://127.0.0.1:5500"  
+    "http://127.0.0.1:5500" 
+    "http://localhost:5500" 
+    
 ]
 
 app.add_middleware(
